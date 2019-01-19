@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.cover{
+    width: 100%;
+    height: 300px;
+    padding: 60px;
+    background-image: url(https://coverfiles.alphacoders.com/503/50382.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(167, 164, 164, 0.5);
+    box-sizing: border-box;
+}
+.pic{
+    position: relative;
+    top: -200px;
+    margin: auto;
+    display: block;
+    width: 220px;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px rgba(167, 164, 164, 0.5); 
+}
+.contact{
+    text-align: center;
+    font-size: 36px;
+    color: #e6c414;
+    text-shadow: 3px 3px 3px rgba(167, 164, 164, 0.5);
+    top: -100px; 
+    margin-top: -15%;
+}
+.contact .fa:hover{
+    color: #b89e17;
+}
+.name{
+    color: #103768;
+    font-weight: bold;
+    text-align: center;
+}
+.name:hover{
+    text-decoration: underline;
+    color: #385e8d;
+    text-shadow:2px 2px 2px rgba(167, 164, 164, 0.5);
+}
+.description{
+    color: #869baf;
+    text-align: center;
+    line-height: 10%;
+}
+h1{
+    color: #be542b;
+    text-shadow: 1px 1px 1px rgba(167, 164, 164, 0.5);
+    font-weight: bold;
+}
+p , li{
+    font-size: 120%;
+}
+.row{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #385e8d;
+    text-align: center;
+    font-size: 72px;
+    text-shadow: 3px 3px 3px rgba(167, 164, 164, 0.5);
+    top: -100px;
+}
+.row p{
+    font-size: 30%;
+    font-style: italic;
+}
+.row .fas:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    color: #b89e17;
+    transition: all 0.5s;
+}
+.pro{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color:#acb3b9;
+    width:350px;
+    height:200px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 1em;
+    font-style: normal;
+    color:#485e74;
+    padding-top: 20%;
+    padding-left: 30%;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow:3px 3px 3px rgba(167, 164, 164, 0.5);
+}
+.pro:hover{
+    outline: 5px solid #485e74 ;
+    outline-offset: -4px;
+    transition: all 0.5s;
+    box-shadow:none;
+}
